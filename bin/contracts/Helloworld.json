@@ -1,0 +1,167 @@
+{
+    "contractName": "Helloworld",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "hello",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "pure",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.8+commit.dddeac2f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"hello\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/andrewelkins/ethereum-201/helloworld/contracts/hello.sol\":\"Helloworld\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/andrewelkins/ethereum-201/helloworld/contracts/hello.sol\":{\"keccak256\":\"0xfd8a517d5b862921ffbfd1736b4d8f8ba74a29dc71a0a8456b01a617c48c8d06\",\"urls\":[\"bzz-raw://e8be9b2c281bb49a864472e592db53c6f918f6c9a0cdff2d4af11eb04f9fb070\",\"dweb:/ipfs/QmPwqvc1fb2GMmY3LKwz95ay7rcigS8BVZETiGS9Psyu9p\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5060e98061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806319ff1d2114602d575b600080fd5b604080518082018252600b81526a12195b1b1bc81ddbdc9b1960aa1b60208201529051605891906061565b60405180910390f35b600060208083528351808285015260005b81811015608c578581018301518582016040015282016072565b81811115609d576000604083870101525b50601f01601f191692909201604001939250505056fea264697066735822122066da616f862d6c4cf882561710fc71858f25bb1a16b47ac23f5bf4e0e7c35eaa64736f6c63430008080033",
+    "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c806319ff1d2114602d575b600080fd5b604080518082018252600b81526a12195b1b1bc81ddbdc9b1960aa1b60208201529051605891906061565b60405180910390f35b600060208083528351808285015260005b81811015608c578581018301518582016040015282016072565b81811115609d576000604083870101525b50601f01601f191692909201604001939250505056fea264697066735822122066da616f862d6c4cf882561710fc71858f25bb1a16b47ac23f5bf4e0e7c35eaa64736f6c63430008080033",
+    "sourceMap": "24:117:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "24:117:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;49:90;112:20;;;;;;;;;;;-1:-1:-1;;;112:20:0;;;;49:90;;;;112:20;49:90;:::i;:::-;;;;;;;;14:597:1;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o",
+    "sourcePath": "/Users/andrewelkins/ethereum-201/helloworld/contracts/hello.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.8+commit.dddeac2f"
+    },
+    "ast": {
+        "absolutePath": "/Users/andrewelkins/ethereum-201/helloworld/contracts/hello.sol",
+        "exportedSymbols": {
+            "Helloworld": [
+                10
+            ]
+        },
+        "id": 11,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "0.8",
+                    ".8"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:22:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 10,
+                "linearizedBaseContracts": [
+                    10
+                ],
+                "name": "Helloworld",
+                "nameLocation": "33:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 8,
+                            "nodeType": "Block",
+                            "src": "102:37:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "hexValue": "48656c6c6f20776f726c64",
+                                        "id": 6,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "kind": "string",
+                                        "lValueRequested": false,
+                                        "nodeType": "Literal",
+                                        "src": "119:13:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_stringliteral_ed6c11b0b5b808960df26f5bfc471d04c1995b0ffd2055925ad1be28d6baadfd",
+                                            "typeString": "literal_string \"Hello world\""
+                                        },
+                                        "value": "Hello world"
+                                    },
+                                    "functionReturnParameters": 5,
+                                    "id": 7,
+                                    "nodeType": "Return",
+                                    "src": "112:20:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "19ff1d21",
+                        "id": 9,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "hello",
+                        "nameLocation": "58:5:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "63:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 4,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 9,
+                                    "src": "87:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 3,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "87:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "86:15:0"
+                        },
+                        "scope": 10,
+                        "src": "49:90:0",
+                        "stateMutability": "pure",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 11,
+                "src": "24:117:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "0:141:0"
+    },
+    "functionHashes": {
+        "hello()": "19ff1d21"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "46600",
+            "executionCost": "99",
+            "totalCost": "46699"
+        },
+        "external": {
+            "hello()": "infinite"
+        }
+    }
+}
